@@ -1,0 +1,438 @@
+body {
+    background-color: #212020;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    bottom: 0;
+   
+}
+
+
+.main {
+    display: flex;
+}
+
+#sidebar {
+    background-color: black;
+    width: 260px;
+    height: 100vh;
+}
+
+.logo {
+    width: 140px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.home-img { 
+    height: 20px;
+    margin-right: 10px;
+}
+
+.home-txt {
+    color: white;
+}
+
+.trio {
+    margin-top: 20px;
+    margin-left: 22px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+}
+
+.trio:hover{
+    background-color: rgb(128, 126, 126);
+}
+
+.trio-2 {
+    display: flex;
+    align-items: center;
+    height: 45px;
+  
+}
+
+.trio-main {
+    margin-top: 30px;
+}
+
+.create-img {
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.create-img {
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.create-img {
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.create-txt {
+    color: white;
+}
+
+.episode-txt {
+    color: white;
+  
+}
+
+.misc {
+    color: white;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+li {
+    list-style: none;
+    height: 40px;
+}
+
+.install {
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.install-img {
+    height: 25px;
+    margin-left: 15px;
+}
+
+.install-txt {
+    color: white;
+    margin-left: 15px;
+
+
+}
+
+#homepage {
+    background: linear-gradient(to bottom, #222222, #0e0e0e);
+    height: 100vh;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.profile-icon {
+    position: sticky;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 50px;
+    width: 130px;
+}
+
+.profile-img {
+    height: 43px;
+    border-radius: 50px;
+}
+
+.angel {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.profile-arrow {
+    height: 20px;
+    margin-left: 5px;
+}
+
+.top-arrow-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+.top-arrow-image {
+    height: 35px;
+    margin-left: -120px;
+}
+
+.greeting {
+    color: white;
+    margin-left: 30px;
+}
+
+.box {
+    display: flex;
+   
+    width: 1200px;
+    flex-wrap: wrap;
+}
+
+.likedsongs {
+    display: flex;
+    align-items: center;
+    background-color: rgb(54, 51, 51);
+    width: 22.50%;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.like {
+    margin-right: 30px;
+}
+
+.like1 {
+    height: 100px;
+    border-radius: 5px 0 0 5px;
+
+}
+
+.txt {
+    position: relative;
+    right: 29px;
+    color: white;
+    margin-left: 15px;
+}
+
+.comment {
+    color: white;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.fatguy {
+    align-items: center;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 15px;
+
+}
+
+.text1 {
+    color: white;
+    margin-left: 50px;
+}
+
+.text2 {
+    color: rgb(128, 124, 124);
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+.shows {
+    /* display: flex; */
+    background-color: #181818;
+    justify-content: center;
+}
+
+.stack {
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.heart {
+    position: relative;
+    right: 63px;
+}
+
+.love {
+    position: relative;
+    height: 10px;
+    right: 33px;
+}
+
+.plus {
+    position: relative;
+    height: 15px;
+    right: 35px;
+}
+
+.player {
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #181818;
+    height: 100px;
+}
+
+.playerimg {
+    height: 65px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+
+}
+
+.cover {
+    height: 60px;
+    margin-left: -1060px;
+    margin-top: 5px;
+}
+
+.covername {
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.covername2 {
+    color: rgb(128, 124, 124);
+    margin-top: 40px;
+    margin-left: -115px;
+}
+
+.love1 {
+    height: 30px;
+    margin-left: 90px;
+    margin-top: 15px;
+}
+
+.drop {
+    position: relative;
+    height: 10px;
+    right: 33px;
+}
+
+.vol {
+    height: 30px;
+    margin-left: 980px;
+    margin-top: 2px;
+}
+
+.see {
+    color: rgb(128, 124, 124);
+    margin-left: 1200px;
+    margin-top: -45px;
+}
+
+.green {
+    position: fixed;
+    background-color: #1ED760;
+    width: 100%;
+    height: 20px;
+    bottom: 0;
+}
+
+.green {
+    background-color: #1ED760;
+}
+
+.arrow {
+    position: relative;
+    top: 66px;
+    right: 205px;
+    transform: rotate(180deg);
+    height: 20px;
+
+}
+
+.device {
+    position: relative;
+    bottom: 20px;
+    margin-left: 1200px;
+}
+.mute{
+    position: relative;
+    bottom: 60px;
+    height: 20px;
+    margin-left:1175px ;
+}
+@media only screen and (max-width:430px){
+    #sidebar, .top-arrow-image, .greeting, .see, .covername2, .green{
+        display: none;
+    }
+    #homepage {
+        background: none;
+    }
+    .profile-icon{
+        transform: scale(0.6);
+        position: fixed;
+        top: -2px;
+        right: 40px;
+    }
+    .box{
+        top: 20px;
+        left: 0;
+        display: grid;
+        grid-template-columns: 300px 2fr;
+        transform: scale(0.48);
+        margin-left: -107px;
+        margin-top: -70px;
+        width: 100vw;
+    }
+    .player, .bar{
+        width: 100vw;
+    }
+    .stack{
+        margin: 30px;
+        transform: scale(1.2);
+    }
+    .txt{
+        width: 100%;
+    }
+    .likedsongs{
+        width: 90%;
+    }
+    #right1, #right2{
+        width: 390px;
+    }
+    .stack{
+        transform: scale(0.6);
+    }
+    .comment{
+        transform: scale(0.7);
+        margin-top: -70px;
+        margin-left: -55px;
+        margin-bottom: -80px;
+
+    }
+    .stack{
+        overflow-y: auto;
+        width: 135vw;
+        margin-left: -100px;
+        justify-content: space-between;
+    }
+    .player, .bar{
+        width: 200vw;
+        position: fixed;
+        bottom: -10px;
+        left: -115px;
+        transform: scale(0.7);
+    }
+    .player{
+        width: 174vw;
+        left: -108px;
+        bottom: 199px;
+        transform: scale(0.95);
+        /* margin-bottom: ; */
+
+    }
+    /* .playerimg{
+        position: fixed;
+        left: -60px;
+
+    } */
+    img.vol {
+        position: fixed;
+        left: -607px;
+        transform: scale(0.7);
+        display: none;
+    }
+    img.playerimg {
+        margin-left: 107px;
+        transform: scale(0.75);
+    }
+    .cover{
+        margin-left: -570px
+    }
+    .main{
+        overflow-y: hidden;
+        overflow-x: hidden;
+   }
+}
